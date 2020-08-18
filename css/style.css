@@ -6,7 +6,6 @@
 
 #header {
 
-
     padding: 15px;
     background-color: #fff;
     display: flex;
@@ -23,11 +22,14 @@
 
 }
 
+.body {}
+
 #nav-bar {
     /*margin-top: 20px;*/
     /*margin-left:20em;*/
     /* overflow: hidden;*/
     background-color: #333;
+    top: 0;
     position: fixed;
     width: 100%;
     padding: 15px;
@@ -56,7 +58,6 @@ a {
 
     flex: 50%;
     margin-left: 10px;
-    margin-top: 15px;
 }
 
 .main {
@@ -80,6 +81,8 @@ li {
     margin: 1em 0;
 }
 
+#selection {}
+
 .select {
     padding: 20px;
     margin-top: 1em;
@@ -87,6 +90,9 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+
+
 }
 
 .item-select {
@@ -95,7 +101,7 @@ li {
     margin-top: 1em;
     color: black;
     border: 1px solid black;
-    align-content: center;
+    align-text: center;
 
 
 }
@@ -129,7 +135,7 @@ p {
 h1 {
     color: black;
     text-align: center;
-
+    margin-top: 4rem;
 }
 
 h4 {
@@ -158,6 +164,6 @@ h4 {
 }
 
 .gallery img {
-    width: 60%;
-    height: 70%;
+    width: 100%;
+    height: 80%;
 }
