@@ -1,0 +1,161 @@
+#header-img {
+    width: 15%;
+    margin-left: 10px;
+    border-radius: 25px;
+}
+
+#header {
+
+    padding: 15px;
+    background-color: #fff;
+    display: flex;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#logo {
+    color: red;
+    font-family: Arial Black;
+    font-size: 30px;
+    display: flex;
+
+}
+
+#nav-bar {
+    /*margin-top: 20px;*/
+    /*margin-left:20em;*/
+    /* overflow: hidden;*/
+    background-color: #333;
+    position: fixed;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+
+}
+
+a {
+    color: #66ccff;
+
+    font-size: 150%;
+    text-decoration: none;
+
+
+}
+
+@media screen and (max-width: 500px) {
+    .nav-link {
+        width: 100%;
+
+
+    }
+}
+
+.nav-link {
+
+    flex: 50%;
+    margin-left: 10px;
+}
+
+.main {
+    margin-top: 30px;
+    background-color: #f2f2f2;
+}
+
+#specification {
+    padding: 20px;
+}
+
+.specs {
+    padding: 20px;
+    margin-top: 1em;
+    color: black;
+    background: #e6e6e6;
+
+}
+
+li {
+    margin: 1em 0;
+}
+
+.select {
+    padding: 20px;
+    margin-top: 1em;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-select {
+    background: #e6e6e6;
+    padding: 15px 32px;
+    margin-top: 1em;
+    color: black;
+    border: 1px solid black;
+    align-text: center;
+
+
+}
+
+.button {
+    background-color: #cc0000;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-top: 25px;
+}
+
+h2 {
+    color: black;
+    margin-left: 0.5em;
+
+}
+
+#offers {
+    text-decoration: none;
+}
+
+p {
+    text-align: center;
+}
+
+h1 {
+    color: black;
+    text-align: center;
+
+}
+
+h4 {
+    padding: 15px 32px;
+    color: black;
+    text-align: center;
+}
+
+#media {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+
+}
+
+#galery {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gallery {
+    margin: 5px;
+
+
+}
+
+.gallery img {
+    width: 100%;
+    height: 80%;
+}
